@@ -76,7 +76,7 @@ public class FoodDao {
 	}
 	
 	public List<Portion> listAllPortions(){
-		String sql = "SELECT * FROM portion" ;
+		String sql = "SELECT * FROM `portion` " ;
 		try {
 			Connection conn = DBConnect.getConnection() ;
 
